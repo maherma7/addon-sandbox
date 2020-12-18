@@ -1,0 +1,161 @@
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 15px 12px;
+    border-bottom: 1px solid #dcdcdc;
+    background-color: #F5F5F5;
+    height: 60px;
+}
+.main{
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 60px;
+    bottom: 60px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 16px 12px;
+    margin:0px;
+}
+.mytab{
+    background-color: #ffffff;
+    width: 226px;
+}
+.mainHeader {
+	height: 114px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+    height: 100%;
+	position: relative;
+	width: 100%
+}
+.masthead>.tabs-figure {
+	background-color: transparent;
+	border-top: 1px solid #e1e1e1;
+	outline: none
+}
+.masthead>.tabs-figure>.tabs {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #4a4a4a;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: lighter;
+	height: 45px;
+	line-height: 45px;
+	outline: none;
+	position: relative;
+	text-align: center;
+	width: 32.33%
+}
+.masthead>.tabs-figure>.tabs>.tab-content {
+	height: 4px;
+	left: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+.masthead>.tabs-figure>.tabs.tab-selected {
+	color: #000;
+	font-weight: normal
+}
+.masthead>.tabs-figure>.tabs>.tab-content>.tab-content-focusable {
+	width: 100%
+}
+.masthead>.tabs-figure>.tabs.tab-selected>.tab-content>.tab-content-focusable {
+	border-bottom: 4px solid #339933
+}
+.masthead>.tabs-figure>.tabs:hover>.tab-content>.tab-content-focusable, .masthead>.tabs-figure>.tabs:hover.tab-selected>.tab-content>.tab-content-focusable {
+	border-bottom: 4px solid #646464
+}
+.masthead>.tabs-figure>.tabs:hover>.tab-content, .masthead>.tabs-figure>.tabs:hover.tab-selected>.tab-content {
+	padding: 0 3px
+}
+.masthead>.tabs-figure>.tabs.tab-selected:focus {
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+	background-color: #fff;
+	outline: #4d90fe solid 1px;
+	outline-offset: -1px
+}
+.custom-frame{
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    border-bottom: 3px solid rgba(0,0,0,0.10);
+    border-left: 1px solid rgba(0,0,0,0.10);
+    border-right: 1px solid rgba(0,0,0,0.10);
+    border-top: 1px solid rgba(0,0,0,0.10);
+    margin: 0 0 6px -4px;
+    padding: 16px;
+    position: relative;
+    width: 284px;
+}
+.divider-a {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+.divider-b {
+    border-top: 1px solid #C5C5C5;
+}
+.applogo{
+    border-radius: 5px;
+}
+.setup-frame{
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    border-bottom: 3px solid rgba(0,0,0,0.10);
+    border-left: 1px solid rgba(0,0,0,0.10);
+    border-right: 1px solid rgba(0,0,0,0.10);
+    border-top: 1px solid rgba(0,0,0,0.10);
+    margin: 0;
+    padding: 16px;
+    position: relative;
+    width: 500px;
+}
+.costumtitle{
+    text-align: center;
+}
+.button-setup{
+    text-align: right;
+    margin: 2px 0;
+}
+.button.inventory,
+	button.inentory,
+	input[type="button"].inentory,
+	input[type="submit"].inentory {
+	  background: -moz-linear-gradient(top, #FF6F6F, #FF6F6F);
+	  background: -ms-linear-gradient(top, #FF6F6F, #FF6F6F);
+	  background: -o-linear-gradient(top, #FF6F6F, #FF6F6F);
+	  background: -webkit-linear-gradient(top , #FF6F6F , #FF6F6F);
+	  background: linear-gradient(top, #FF6F6F, #FF6F6F);
+	  border: 1px solid transparent;
+	  color: #fff;
+	  text-shadow: 0 1px rgba(0, 0, 0, .1);
+	  text-transform: uppercase;
+}
+
+.button.prevnext,
+button.prevnext,
+input[type="button"].prevnext,
+input[type="submit"].prevnext{
+  background: -moz-linear-gradient(top, #339933, #339933);
+  background: -ms-linear-gradient(top, #339933, #339933);
+  background: -o-linear-gradient(top, #339933, #339933);
+  background: -webkit-linear-gradient(top, #339933, #339933);
+  background: linear-gradient(top, #339933, #339933);
+  border: 1px solid transparent;
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, .1);
+  text-transform: uppercase;
+  padding: 8px;
+  border-radius: 5px;
+  width: 90px;
+}
